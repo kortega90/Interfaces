@@ -3,12 +3,13 @@ package model.entities;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Installment extends Contract{
+public class Installment{
 
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 	
 	private Date dueDate;
 	private Double amount;
+	
 	
 	public Installment() {
 	}
